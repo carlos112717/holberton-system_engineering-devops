@@ -1,3 +1,7 @@
+¿Por qué usamos #!/bin/bash al principio de nuestro script?
+
+Esto se debe a que es necesario permitir que el shell interactivo sepa qué tipo de intérprete ejecutar para el programa que contiene. La primera línea le dice a Unix que el archivo será ejecutado por /bin/bash.  Esta es la ubicación estándar del shell Bourne en casi todos los sistemas Unix. Al agregar #!/bin/bash como la primera línea de tu script, le indicas al sistema operativo que invoque el shell especificado para ejecutar los comandos que siguen en el script. #! a menudo se lo conoce como "hash-bang", "she-bang" o "sha-bang". Sin embargo, solo se ejecutará si llamas tu script como un ejecutable. Por ejemplo, cuando escribes ./nombre-del-scrip.extension, el sistema buscará en la línea superior del  archivo para determinar el intérprete, mientras que, al ejecutar el script como bash nombre_del_script.sh, la primera línea se ignorará
+
 0x01. Shell, permissions
 Tasks
 
