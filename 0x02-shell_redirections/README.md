@@ -1,0 +1,1 @@
+En este directorio se mostraran algunos comandos utiles e importantes como lo son las salidas estandar, las entradas estandar, el redireccionamiento y filtros.
