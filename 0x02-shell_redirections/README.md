@@ -1,0 +1,1 @@
+En este directorio se mostraran comandos para caracteres especiales y redireccionamiento
