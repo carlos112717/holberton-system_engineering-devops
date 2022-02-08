@@ -1,0 +1,1 @@
+Para este directorio se crean archivos donde se hacen ejercicios para la construcción de variables
